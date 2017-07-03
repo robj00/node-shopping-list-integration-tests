@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Y4fpdP0vYZE0OzQJoVQFjSPfpj5F/N76gTbKvSpqvKUc/VzjGTF4tCUcXlGtbTbdgsEhLyBlsC7OY1t+9XbGfnZDeM0OaKk3IhR5P3r28gWZ50xEzYNqri4+JYrmCr7hqxMXaAR+2B9KCQG1ieVl/2MCBmrAAu9RYGu9PnsptDmZ86JGQqvObH1aEVQYkdr6C5dVPZ187Xyqh+rHIgHlVvggwJPmZ2xeD6TAAZlcyriDzB5emO6CI+OEF3cPVF9fW5QEnX/jT+9UMJn5b2P+h5Vc304/fmQAIsBmWGiNkO0R+WGvPxvs507FN+rZwOi/YzQJZ7sMYzorG6nYKbqW0MLF/KHI5COFbu4dKeFvU3V1e5dtkhIyKk0/Tg8Tyx5pL3c6JK18Ikb6Mju7Mp16Dt9ECTCdYuYoIRAzPYxVsw5y2nx3YKGvlOLeLjvGZFrnDws+kowvEiboYMk2xqhfJPpo6LfVExy71ebM7kyVg6ybTHCDpkVUnZM1Q/XBRN76MrlIGHnwDH6PuBLGBw+7VhgK4VvtduYdsxm+O1Vmhf1TG47DbZgPHMcb8KkXjszkpd1W2H09ELz1jg2iEm7Vh5df4ueUUlIt1yJxJ9R34UvGue4H/i0czbT8Y6lThvjQ1SNCHmIBOygxXzlHZPfbaFqzzT7FA7T5Ubj5Ja2PcuQ=
+  app: tranquil-escarpment-67698
+  on:
+    repo: robj00/node-shopping-list-integration-tests
